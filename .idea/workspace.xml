@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b4b1a92-c70b-4d71-bb64-4d0da1576e08" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/berhanu/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/berhanu/ArrayDuplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/berhanu/AppTest.java" afterDir="false" />
+    <list default="true" id="9b4b1a92-c70b-4d71-bb64-4d0da1576e08" name="Changes" comment="examples in java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/berhanu/ArrayDuplicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/berhanu/ArrayReversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/berhanu/ArrayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/berhanu/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/berhanu/SequentialSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/berhanu/ArrayDuplicatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/berhanu/BinarySearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/berhanu/SequentialSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/berhanu/ArrayDuplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/berhanu/ArrayDuplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +48,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="ArrayDuplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.berhanu.ArrayDuplication" />
+  <component name="RunManager" selected="JUnit.ArrayUtilsTest.testIsSorted">
+    <configuration name="SequentialSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.berhanu.SequentialSearch" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -61,9 +62,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayDuplicatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.berhanu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.berhanu" />
+      <option name="MAIN_CLASS_NAME" value="org.berhanu.ArrayDuplicatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayUtilsTest.testIsSorted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.berhanu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.berhanu" />
+      <option name="MAIN_CLASS_NAME" value="org.berhanu.ArrayUtilsTest" />
+      <option name="METHOD_NAME" value="testIsSorted" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.berhanu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.berhanu" />
+      <option name="MAIN_CLASS_NAME" value="org.berhanu.BinarySearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SequentialSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.berhanu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.berhanu" />
+      <option name="MAIN_CLASS_NAME" value="org.berhanu.SequentialSearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayDuplication" />
+        <item itemvalue="JUnit.ArrayUtilsTest.testIsSorted" />
+        <item itemvalue="JUnit.BinarySearchTest" />
+        <item itemvalue="JUnit.ArrayDuplicatorTest" />
+        <item itemvalue="JUnit.SequentialSearchTest" />
+        <item itemvalue="Application.SequentialSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -76,6 +142,14 @@
       <option name="presentableId" value="Default" />
       <updated>1680723837006</updated>
     </task>
+    <task id="LOCAL-00001" summary="examples in java">
+      <created>1680724679654</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680724679654</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,5 +162,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="examples in java" />
+    <option name="LAST_COMMIT_MESSAGE" value="examples in java" />
   </component>
 </project>
